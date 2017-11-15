@@ -1,0 +1,12 @@
+package: github.com/enxebre/prekube
+import:
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+- package: google.golang.org/api
+  subpackages:
+  - compute/v1
+  - storage/v1
